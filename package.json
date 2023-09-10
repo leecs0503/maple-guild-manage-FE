@@ -1,0 +1,37 @@
+{
+  "name": "maple-guild-manage-fe",
+  "version": "1.0.0",
+  "description": "메이플 길드 관리 시스템의 FE 레포지토리입니다.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecs0503/maple-guild-manage-FE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leecs0503/maple-guild-manage-FE/issues"
+  },
+  "homepage": "https://github.com/leecs0503/maple-guild-manage-FE#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.22.15",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
