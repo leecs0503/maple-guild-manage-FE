@@ -12,6 +12,12 @@ module.exports = {
   devServer: {
     port: 3000,
     liveReload: true,
+    proxy: {
+      "/api": {
+        target: 'http://localhost:8080', // 클라이언트에서 api로 보내는 요청은 주소를 3095로 바꿔서 보내겠다 라는 뜻
+        changeOrigin: true, // cross origin 허용 설정
+      }
+    }
   },
   
   module: {
